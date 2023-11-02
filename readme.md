@@ -9,5 +9,5 @@ However, since Java 10, official 32 bit builds are no longer provided.
 
 This file was extracted from a Zulu Community build of OpenJDK as follows:
 
-1. Downloaded Java 13.0.1+10Zulu (13.28.11) from: https://www.azul.com/downloads/zulu-community/?&os=&os=windows&architecture=x86-32-bit&package=jre
-2. Copied `zulu13.28.11-ca-jre13.0.1-win_i686\bin\windowsaccessbridge-32.dll` from this archive into this repository.
+1. Downloaded Java 17.0.9+8Zulu (17.46.19) zip file from: https://www.azul.com/downloads/?os=windows&architecture=x86-32-bit&package=jre#zulu
+2. Copied `zulu17.46.19-ca-jre17.0.9-win_i686\bin\windowsaccessbridge-32.dll` from this archive into this repository.
