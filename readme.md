@@ -21,5 +21,5 @@ This should be able to talk to 32 bit Java applications also.
 
 This file was extracted from a Zulu Community build of OpenJDK as follows:
 
-1. Downloaded Java 17.0.16+8 Zulu (17.60.17) 64 bit zip file from: https://cdn.azul.com/zulu/bin/zulu17.60.17-ca-jre17.0.16-win_x64.zip
+1. Downloaded Java 17.0.16+8 Zulu (17.60.17) 64 bit zip file from: https://www.azul.com/downloads/?os=windows&architecture=x86-64-bit&package=jre#zulu
 2. Copied `zulu17.60.17-ca-jre17.0.16-win_x64\bin\windowsaccessbridge-64.dll` from this archive into this repository.
