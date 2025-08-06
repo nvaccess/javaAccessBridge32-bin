@@ -9,10 +9,11 @@ When the NVDA screen reader is built as a 32 bit application, it requires the 32
 This will happily talk to 64 bit Java applications.
 However, since Java 10, official 32 bit builds are no longer provided.
 
-This file was extracted from a Zulu Community build of OpenJDK as follows:
+These files were extracted from a Zulu Community build of OpenJDK as follows:
 
-1. Downloaded Java 17.0.9+8Zulu (17.46.19) zip file from: https://www.azul.com/downloads/?os=windows&architecture=x86-32-bit&package=jre#zulu
-2. Copied `zulu17.46.19-ca-jre17.0.9-win_i686\bin\windowsaccessbridge-32.dll` from this archive into this repository.
+1. Downloaded Java 17.0.11+9Zulu (17.50.19) zip file from: https://www.azul.com/downloads/?os=windows&architecture=x86-32-bit&package=jre#zulu
+1. Unzipped file
+1. From `zulu17.50.19-ca-jre17.0.11-win_i686\bin\` copied `windowsaccessbridge-32.dll` and `windowsaccessbridge.dll` into this repository.
 
 ## 64 bit Java Access Bridge
 
@@ -23,4 +24,3 @@ This file was extracted from a Zulu Community build of OpenJDK as follows:
 
 1. Downloaded Java 17.0.16+8 Zulu (17.60.17) 64 bit zip file from: https://cdn.azul.com/zulu/bin/zulu17.60.17-ca-jre17.0.16-win_x64.zip
 2. Copied `zulu17.60.17-ca-jre17.0.16-win_x64\bin\windowsaccessbridge-64.dll` from this archive into this repository.
-
